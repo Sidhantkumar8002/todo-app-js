@@ -2,7 +2,13 @@
 body {
   font-family: "Times New Roman";
   background-color: #eef2f3;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#taskList {
+  width: 100%;
+  max-width: 500px;
 }
 
 /* Heading */
